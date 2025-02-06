@@ -30,19 +30,19 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan, isUSD }) => {
 
   return (
     <div
-      className={`relative flex flex-col rounded-lg bg-gray-900 p-8 ${
+      className={`relative flex flex-col rounded-lg bg-black-900 p-8 ${
         plan.name === "PREMIUM" || plan.name === "PREMIUM PRO"
-          ? "border-2 border-purple-500"
+          ? "border-2 border-indigo-500"
           : "border border-gray-800"
       }`}
     >
       {plan.name === "PREMIUM" && (
-        <span className="absolute -top-3 right-4 bg-purple-500 text-white text-xs px-3 py-1 rounded-full">
+        <span className="absolute -top-3 right-4 bg-indigo-500 text-white text-xs px-3 py-1 rounded-full">
           Popular
         </span>
       )}
       {plan.name === "PREMIUM PRO" && (
-        <span className="absolute -top-3 right-4 bg-purple-500 text-white text-xs px-3 py-1 rounded-full">
+        <span className="absolute -top-3 right-4 bg-indigo-500 text-white text-xs px-3 py-1 rounded-full">
           Hot Deal
         </span>
       )}
@@ -74,13 +74,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan, isUSD }) => {
         {renderFeature(plan.features.hr, "HR Rounds")}
       </div>
 
-      <Button
-        className={`w-full mt-8 ${
-          plan.name === "Free"
-            ? "bg-purple-600 hover:bg-purple-700 text-white"
-            : "bg-purple-600 hover:bg-purple-700 text-white"
-        }`}
-      >
+      <Button bgColor="bg-indigo-600" className="w-full mt-8 text-white">
         {plan.name === "Free" ? "Try Now" : "Buy Now"}
       </Button>
     </div>
