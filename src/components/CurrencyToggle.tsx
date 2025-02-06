@@ -16,7 +16,7 @@ const CurrencyToggle: React.FC<CurrencyToggleProps> = ({ isUSD, setIsUSD }) => {
     <div className="flex items-center justify-center gap-4 my-8">
       <span
         className={`text-lg font-medium transition-colors ${
-          !isUSD ? "text-white" : "text-gray-400"
+          !isUSD ? "text-black" : "text-gray-400"
         }`}
       >
         ₹ INR
@@ -29,8 +29,8 @@ const CurrencyToggle: React.FC<CurrencyToggleProps> = ({ isUSD, setIsUSD }) => {
         onClick={() => setIsUSD(!isUSD)}
         onKeyDown={handleKeyPress}
         tabIndex={0}
-        className={`relative w-16 h-8 rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 ${
-          isUSD ? "bg-purple-600" : "bg-gray-600"
+        className={`relative w-16 h-8 rounded-full transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ${
+          isUSD ? "bg-indigo-600" : "bg-gray-600"
         }`}
       >
         <span
@@ -42,7 +42,7 @@ const CurrencyToggle: React.FC<CurrencyToggleProps> = ({ isUSD, setIsUSD }) => {
 
       <span
         className={`text-lg font-medium transition-colors ${
-          isUSD ? "text-white" : "text-gray-400"
+          isUSD ? "text-black" : "text-gray-400"
         }`}
       >
         $ USD

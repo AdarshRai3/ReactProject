@@ -24,9 +24,9 @@ const FAQSection = () => {
       <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
       <div className="max-w-3xl mx-auto space-y-4">
         {faqs.map((faq, index) => (
-          <div key={index} className="border border-gray-800 rounded-lg overflow-hidden">
+          <div key={index} className="border border-black-800 rounded-lg overflow-hidden">
             <button
-              className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-900"
+              className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-white-900"
               onClick={() => toggleFaq(index)}
             >
               <span className="font-medium">{faq.question}</span>
@@ -44,7 +44,7 @@ const FAQSection = () => {
                 openFaq === index ? "py-4" : "h-0 py-0 overflow-hidden"
               }`}
             >
-              <p className="text-gray-400">{faq.answer}</p>
+              <p className="text-black-400">{faq.answer}</p>
             </div>
           </div>
         ))}

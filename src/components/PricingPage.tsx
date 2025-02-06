@@ -4,19 +4,17 @@ import CurrencyToggle from "./CurrencyToggle";
 import PricingCard from "./PricingCard";
 import FAQSection from "./FAQSection";
 
-
 const PricingPage: React.FC = () => {
   const [isUSD, setIsUSD] = useState(false);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white">
-      
+    <div className="min-h-screen bg-white text-black">
       <div className="mx-auto px-4 pt-24 sm:px-6 lg:px-8">
         <section className="text-center">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
             Plans and Pricing
           </h1>
-          <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-600 dark:text-gray-400">
+          <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-600">
             We want to empower every candidate to ace their interviews. Choose
             the plan that best fits your preparation needs.
           </p>
