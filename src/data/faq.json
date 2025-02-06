@@ -1,0 +1,25 @@
+{
+    "faqs": [
+      {
+        "question": "What do I get with the Free plan?",
+        "answer": "The Free plan includes 1 Mock AI Interview and 1 Mock Test. It also provides access to a 15-minute technical interview."
+      },
+      {
+        "question": "What is included in the EDGE plan?",
+        "answer": "The EDGE plan offers 4 Mock AI Interviews, 5 Mock Tests, and full access to all technical interview durations (15, 30, and 45 minutes). However, it does not include coding or HR interviews."
+      },
+      {
+        "question": "What is the difference between PREMIUM and PREMIUM PRO?",
+        "answer": "The PREMIUM plan includes 6 Mock AI Interviews, 10 Mock Tests, and access to all interview types, including coding and HR. The PREMIUM PRO plan extends this to 10 Mock AI Interviews, 15 Mock Tests, and all interview types with maximum flexibility."
+      },
+      {
+        "question": "Can I purchase additional interviews separately?",
+        "answer": "Currently, interviews are only available within plans. However, we are working on enabling individual interview purchases soon."
+      },
+      {
+        "question": "Do credits expire?",
+        "answer": "No, credits do not expire. You can use them at any time while your account is active."
+      }
+    ]
+  }
+  

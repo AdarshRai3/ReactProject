@@ -1,15 +1,5 @@
-import './App.css'
+import PricingPage from "./components/PricingPage";
 
-function App() {
-  
+const App = () => <PricingPage />;
 
-  return (
-    <>
-      <div>
-         <p>hello</p>
-      </div>
-    </>
-  )
-}
-
-export default App
+export default App;

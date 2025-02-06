@@ -1,0 +1,62 @@
+{
+    "pricingPlans": [
+      {
+        "name": "Free",
+        "priceInr": 0,
+        "priceUsd": 0,
+        "features": {
+          "mockAiInterview": 1,
+          "mockTest": 1,
+          "technical15": true,
+          "technical30": false,
+          "technical45": false,
+          "coding": false,
+          "hr": false
+        }
+      },
+      {
+        "name": "EDGE",
+        "priceInr": 499,
+        "priceUsd": 5.99,
+        "features": {
+          "mockAiInterview": 4,
+          "mockTest": 5,
+          "technical15": true,
+          "technical30": true,
+          "technical45": true,
+          "coding": false,
+          "hr": false
+        }
+      },
+      {
+        "name": "PREMIUM",
+        "priceInr": 699,
+        "priceUsd": 8.99,
+        "features": {
+          "mockAiInterview": 6,
+          "mockTest": 10,
+          "technical15": true,
+          "technical30": true,
+          "technical45": true,
+          "coding": true,
+          "hr": true
+        }
+      },
+      {
+        "name": "PREMIUM PRO",
+        "priceInr": 999,
+        "priceUsd": 11.99,
+        "features": {
+          "mockAiInterview": 10,
+          "mockTest": 15,
+          "technical15": true,
+          "technical30": true,
+          "technical45": true,
+          "coding": true,
+          "hr": true
+        }
+      }
+    ]
+  }
+  
+  
